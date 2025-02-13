@@ -46,11 +46,11 @@ export default function App() {
             options={{ clientSecret, appearance, loader }}
             stripe={stripePromise}
           > */}
-            <Routes>
-              <Route path="/checkout" element={<CheckoutForm />} />
-              <Route path="/complete" element={<CompletePage />} />
-            </Routes>
-          {/* </Elements>
+      <Routes>
+        <Route path="/checkout" element={<CheckoutForm />} />
+        <Route path="/complete" element={<CompletePage />} />
+      </Routes>
+      {/* </Elements>
         )}
       </div> */}
     </>

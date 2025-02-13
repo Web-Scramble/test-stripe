@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import {PaymentElement} from '@stripe/react-stripe-js';
 
 const CheckoutForm = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <form>
+      <PaymentElement />
+      <button>Submit</button>
+    </form>
+  );
+};
 
-export default CheckoutForm
+export default CheckoutForm;
